@@ -1,5 +1,5 @@
-## Book of Hours: Custom Room Requirements
-This mod allows to change the default requirements to unlock rooms into different ones in the game Book of Hours.
+## Book of Hours: Customizable Room Unlock Requirements
+This mod allows to change the room-unlock requirements in the game Book of Hours.
 
 ### How to play it?
 The mod is not on the Steam Workshop yet, so you need to install it manually:
