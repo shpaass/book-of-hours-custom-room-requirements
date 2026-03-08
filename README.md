@@ -21,7 +21,7 @@ In the dev mode, you can unlock and re-lock the rooms by clicking on their backg
 1. Exit the dev mode and see how the unlock verb is called. In our case it's called Mist-Cloaked Bridge.
 1. Search for "Mist-Cloaked Bridge" in `terrain.json` of the mod. Confirm that you're looking at the right thing by comparing the unlock-requirements in the file with what you see in the game.
 1. Change the unlock-requirements to what you want. This part is explained in more detail below. For now, we can just change the value of `forge` from 1 to 2 in `required`.
-1. Save the file, copy the file into the mod folder, replacing the old one.
+1. Save the file. Copy it into the mod folder, replacing the old one.
 1. In the game, get back to the main menu. Open the mod list, disable the mod, close the list so the changes are applied, and then re-enable the mod the same way.
 1. Load the save. You should see your changes.
 1. Repeat it for all the rooms you want to change.
