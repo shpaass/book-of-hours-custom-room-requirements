@@ -47,7 +47,7 @@ We get the name of the verb, Gatehouse Stairs, and navigate to it in the file. T
 },
 ```
 
-`forbidden` contains things none of which must be true. It's equivalent to `not(A or B or ...)`. Let's put the beverage requirement there. To get the of the name of the assistant-beverage aspect, we navigate to the game files: `Steam\steamapps\common\Book of Hours\bh_Data\StreamingAssets\bhcontent\core\elements\_aspects.json`. We  search for "exalted" and find that the aspect's ID is `exalted.beverage`. You can find other aspects you want the same way - remember how it's called in the game and search this file for an ID.
+`forbidden` contains things none of which must be true. It's equivalent to `not(A or B or ...)`. Let's put the beverage requirement there. To get the needed ID of the name of the assistant-beverage aspect, we navigate to the game files: `Steam\steamapps\common\Book of Hours\bh_Data\StreamingAssets\bhcontent\core\elements\_aspects.json`. We  search for "exalted" and find that the aspect's ID is `exalted.beverage`. You can find other aspects you want the same way - remember how it's called in the game and search this file for an ID.
 ```
 "forbidden":{
     "exalted.beverage": 1
