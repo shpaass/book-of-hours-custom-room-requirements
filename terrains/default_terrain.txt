@@ -1,0 +1,2 @@
+A terrain file, located at Steam\steamapps\common\Book of Hours\bh_Data\StreamingAssets\bhcontent\core\recipes\terrain.json.
+It was formatted by IntelliJ IDEA for the convenience of reading and editing.
