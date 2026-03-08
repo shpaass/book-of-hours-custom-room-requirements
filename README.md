@@ -9,6 +9,7 @@ The mod is not on the Steam Workshop yet, so you need to install it manually:
 1. Launch the game. In the main menu, click the hammers button on the bottom left. You should see the mod list.
 1. Enable the mod and close the list. You don't need to restart the game, but feel free to do so if things don't work out.
 1. Start the game. It can be an old save or a new run, it should work either way.
+1. If you want to use the other stored terrain from the repository, then replace the `.json` file in the mod folder with the one you chose from the repository `terrains` folder.
 
 ### How to change it?
 If you want to help with developing the mod, here's an example of how it can be done:
@@ -19,7 +20,7 @@ If you want to help with developing the mod, here's an example of how it can be 
 In the dev mode, you can unlock and re-lock the rooms by clicking on their background. Let's say you want to change the unlock-requirements for the Cucurbit Bridge:
 1. If it's already unlocked, then lock it back by enabling the dev mode and clicking on the bridge. There are different layers, so some places can lock it when others don't.
 1. Exit the dev mode and see how the unlock verb is called. In our case it's called Mist-Cloaked Bridge.
-1. Search for "Mist-Cloaked Bridge" in `terrain.json` of the mod. Confirm that you're looking at the right thing by comparing the unlock-requirements in the file with what you see in the game.
+1. Search for "Mist-Cloaked Bridge" in the "terrain" `.json` file of the mod. Confirm that you're looking at the right thing by comparing the unlock-requirements in the file with what you see in the game.
 1. Change the unlock-requirements to what you want. This part is explained in more detail below. For now, we can just change the value of `forge` from 1 to 2 in `required`.
 1. Save the file. Copy it into the mod folder, replacing the old one.
 1. In the game, get back to the main menu. Open the mod list, disable the mod, close the list so the changes are applied, and then re-enable the mod the same way.
