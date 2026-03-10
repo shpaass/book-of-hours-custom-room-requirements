@@ -12,7 +12,7 @@ The mod is not on the Steam Workshop yet, for it's a blank slate, so you need to
 1. If you want to use the other stored terrain from the repository, then replace the `.json` file in the mod folder with the one you chose from the repository `terrains` folder.
 
 ### How to change it?
-If you want to make your own custom adventure, or help with other layouts, here's an example of how it can be done:
+If you want to make your own custom adventure or to tinker with layouts, here's an example of how it can be done:
 1. Enable the developer mode of the game - go to `C:\Users\%Your_Username%\AppData\LocalLow\Weather Factory\Book of Hours\config.ini`, and add `moonserp=1` on a new line at the bottom. Now you can enable the dev mode in-game by pressing ``Ctrl+` `` (located in the upper-left corner of the keyboard, usually).
 1. Make a manual save of your current run to not mess it up.
 1. Make a new run for development and save it manually after the starting sequence. You're ready for dev.
