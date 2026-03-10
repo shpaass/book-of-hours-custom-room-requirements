@@ -2,7 +2,7 @@
 This mod allows to change the room-unlock requirements in the game Book of Hours.
 
 ### How to play it?
-The mod is not on the Steam Workshop yet, so you need to install it manually:
+The mod is not on the Steam Workshop yet, for it's a blank slate, so you need to install it manually:
 1. Download the repository, unpack it. 
 1. Put the folder `Customizable_Room_Unlock_Requirements` into `C:\Users\%Your_Username%\AppData\LocalLow\Weather Factory\Book of Hours\mods`.
 1. The game should be on the beta branch to have the mod support. To enable it, Right Click on the game in the Steam list > Properties > Game Versions & Betas > Choose "beta".
@@ -12,7 +12,7 @@ The mod is not on the Steam Workshop yet, so you need to install it manually:
 1. If you want to use the other stored terrain from the repository, then replace the `.json` file in the mod folder with the one you chose from the repository `terrains` folder.
 
 ### How to change it?
-If you want to help with developing the mod, here's an example of how it can be done:
+If you want to make your own custom adventure, or help with other layouts, here's an example of how it can be done:
 1. Enable the developer mode of the game - go to `C:\Users\%Your_Username%\AppData\LocalLow\Weather Factory\Book of Hours\config.ini`, and add `moonserp=1` on a new line at the bottom. Now you can enable the dev mode in-game by pressing ``Ctrl+` `` (located in the upper-left corner of the keyboard, usually).
 1. Make a manual save of your current run to not mess it up.
 1. Make a new run for development and save it manually after the starting sequence. You're ready for dev.
