@@ -5,7 +5,6 @@ This mod allows to change the room-unlock requirements in the game Book of Hours
 The mod is not on the Steam Workshop yet, for it's a blank slate, so you need to install it manually:
 1. Download the repository, unpack it. 
 1. Put the folder `Customizable_Room_Unlock_Requirements` into `C:\Users\%Your_Username%\AppData\LocalLow\Weather Factory\Book of Hours\mods`.
-1. The game should be on the beta branch to have the mod support. To enable it, Right Click on the game in the Steam list > Properties > Game Versions & Betas > Choose "beta".
 1. Launch the game. In the main menu, click the hammers button on the bottom left. You should see the mod list.
 1. Enable the mod and close the list. You don't need to restart the game, but feel free to do so if things don't work out.
 1. Start the game. It can be an old save or a new run, it should work either way.
