@@ -10,11 +10,11 @@ The json file is the actual terrain file that is going to be used by the mod.
 
 The naming convention is as follows:
 ```
-<terrain_name>.txt
+<terrain_name>_terrain.txt
 <terrain_name>_terrain.json
 ```
 For example:
 ```
-my_awesome_changes.txt
+my_awesome_changes_terrain.txt
 my_awesome_changes_terrain.json
 ```
