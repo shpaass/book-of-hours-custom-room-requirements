@@ -1,0 +1,4 @@
+This is a Work In Progress change of the terrain to the tastes of user shpaass.
+The room requirements felt too easy for veterans, so this terrain changes them to be more challenging.
+
+Minimal expected setup: House of Light DLC, Minor Item Changes mod, Fabric Improvements mod.
