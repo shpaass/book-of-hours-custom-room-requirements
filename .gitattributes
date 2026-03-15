@@ -2,7 +2,3 @@
 # Without this conversion, git considers the files as binaries, and the diff is very hard to read.
 Customizable_Room_Unlock_Requirements/content/*.json text working-tree-encoding=UTF-16LE-BOM
 terrains/*.json text working-tree-encoding=UTF-16LE-BOM
-
-# A debugging state that should be deleted once the transition is successful.
-# Customizable_Room_Unlock_Requirements/content/*.json eol=LF
-# terrains/*.json eol=LF
