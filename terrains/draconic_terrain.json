@@ -12,8 +12,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "lantern": 5,
-            "knock": 5
+            "lantern": 14,
+            "knock": 17
           },
           "forbidden": {},
           "essential": {
@@ -2048,8 +2048,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "lantern": 6,
-            "heart": 6
+            "lantern": 15,
+            "heart": 15
           },
           "forbidden": {},
           "essential": {
