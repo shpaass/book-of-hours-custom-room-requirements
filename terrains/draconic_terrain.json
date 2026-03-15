@@ -1101,9 +1101,9 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "winter": 6,
-            "forge": 6,
-            "edge": 6
+            "winter": 21,
+            "forge": 21,
+            "edge": 19
           },
           "forbidden": {},
           "essential": {
