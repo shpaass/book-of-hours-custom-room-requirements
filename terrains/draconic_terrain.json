@@ -556,8 +556,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "nectar": 2,
-            "lantern": 2
+            "nectar": 3,
+            "lantern": 6
           },
           "forbidden": {},
           "essential": {
@@ -700,9 +700,9 @@
           "label": "Repairs",
           "description": "Hush House has been empty for seven years. Those seven years have rendered the bridge perilous.",
           "required": {
-            "forge": 1,
-            "lantern": 1,
-            "sky": 1
+            "forge": 3,
+            "lantern": 4,
+            "sky": 2
           },
           "forbidden": {},
           "essential": {
@@ -844,7 +844,7 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "knock": 3,
+            "knock": 5,
             "rose": 3
           },
           "forbidden": {},
@@ -872,8 +872,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "forge": 6,
-            "winter": 6
+            "forge": 17,
+            "winter": 15
           },
           "forbidden": {},
           "essential": {
@@ -900,8 +900,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "forge": 6,
-            "scale": 6
+            "forge": 16,
+            "scale": 11
           },
           "forbidden": {},
           "essential": {
@@ -1131,7 +1131,7 @@
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
             "heart": 4,
-            "winter": 4,
+            "winter": 6,
             "sky": 4,
             "forge": 4
           },
@@ -1160,10 +1160,10 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "nectar": 5,
-            "winter": 5,
-            "knock": 5,
-            "grail": 4
+            "nectar": 15,
+            "winter": 13,
+            "knock": 12,
+            "grail": 11
           },
           "forbidden": {},
           "essential": {
@@ -1190,10 +1190,10 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "edge": 5,
-            "winter": 5,
-            "knock": 5,
-            "forge": 4
+            "edge": 11,
+            "winter": 14,
+            "knock": 12,
+            "forge": 16
           },
           "forbidden": {},
           "essential": {
@@ -1221,7 +1221,7 @@
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
             "heart": 4,
-            "winter": 4,
+            "winter": 6,
             "edge": 4,
             "moon": 4
           },
@@ -1508,8 +1508,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "heart": 5,
-            "edge": 5
+            "heart": 12,
+            "edge": 11
           },
           "forbidden": {},
           "essential": {
@@ -1536,8 +1536,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "heart": 5,
-            "grail": 5
+            "heart": 12,
+            "grail": 11
           },
           "forbidden": {},
           "essential": {
@@ -1648,8 +1648,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "forge": 6,
-            "sky": 6
+            "forge": 13,
+            "sky": 13
           },
           "forbidden": {},
           "essential": {
@@ -1765,9 +1765,9 @@
           "label": "Entrance",
           "description": "The local blacksmith can defeat the door. The rector probably has a spare key. And the midwife knows how to jiggle the latch on the back door.",
           "required": {
-            "forge": 2,
-            "knock": 1,
-            "heart": 1
+            "forge": 4,
+            "knock": 2,
+            "heart": 3
           },
           "forbidden": {},
           "essential": {
@@ -1794,8 +1794,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "winter": 3,
-            "lantern": 3
+            "winter": 8,
+            "lantern": 6
           },
           "forbidden": {},
           "essential": {
@@ -1822,8 +1822,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "winter": 4,
-            "lantern": 4
+            "winter": 9,
+            "lantern": 8
           },
           "forbidden": {},
           "essential": {
@@ -2245,8 +2245,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "heart": 3,
-            "nectar": 3
+            "heart": 12,
+            "nectar": 15
           },
           "forbidden": {},
           "essential": {
@@ -2273,8 +2273,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "edge": 4,
-            "nectar": 4
+            "edge": 11,
+            "nectar": 12
           },
           "forbidden": {},
           "essential": {
@@ -2499,8 +2499,8 @@
           "label": "Guidance",
           "description": "These sands can be treacherous. Ask a guide the way.",
           "required": {
-            "moon": 2,
-            "winter": 2
+            "moon": 3,
+            "winter": 4
           },
           "forbidden": {
             "reluctant": 1
@@ -2529,8 +2529,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "scale": 5,
-            "heart": 5
+            "scale": 7,
+            "heart": 8
           },
           "forbidden": {},
           "essential": {
@@ -2613,8 +2613,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "moon": 5,
-            "rose": 5
+            "moon": 12,
+            "rose": 12
           },
           "forbidden": {},
           "essential": {
@@ -2970,8 +2970,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "lantern": 2,
-            "forge": 2
+            "lantern": 5,
+            "forge": 5
           },
           "forbidden": {},
           "essential": {
@@ -2998,8 +2998,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "grail": 2,
-            "sky": 2
+            "grail": 4,
+            "sky": 4
           },
           "forbidden": {},
           "essential": {
@@ -3083,8 +3083,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "lantern": 5,
-            "forge": 5
+            "lantern": 7,
+            "forge": 6
           },
           "forbidden": {},
           "essential": {
