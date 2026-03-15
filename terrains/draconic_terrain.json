@@ -1162,7 +1162,7 @@
           "required": {
             "nectar": 15,
             "winter": 13,
-            "knock": 12,
+            "knock": 11,
             "grail": 11
           },
           "forbidden": {},
@@ -1935,8 +1935,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "moth": 5,
-            "heart": 5
+            "moth": 8,
+            "heart": 10
           },
           "forbidden": {},
           "essential": {
@@ -1963,8 +1963,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "moth": 6,
-            "heart": 6
+            "moth": 9,
+            "heart": 11
           },
           "forbidden": {},
           "essential": {
@@ -1991,8 +1991,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "heart": 6,
-            "sky": 6
+            "heart": 12,
+            "sky": 13
           },
           "forbidden": {},
           "essential": {
