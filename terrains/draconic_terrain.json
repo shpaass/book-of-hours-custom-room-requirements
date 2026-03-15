@@ -1103,7 +1103,7 @@
           "required": {
             "winter": 21,
             "forge": 21,
-            "edge": 19
+            "edge": 15
           },
           "forbidden": {},
           "essential": {
