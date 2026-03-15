@@ -469,9 +469,9 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "winter": 9,
-            "lantern": 9,
-            "moon": 9
+            "winter": 21,
+            "lantern": 16,
+            "moon": 22
           },
           "forbidden": {},
           "essential": {
@@ -1101,8 +1101,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "winter": 21,
-            "forge": 21,
+            "winter": 20,
+            "forge": 20,
             "edge": 15
           },
           "forbidden": {},
@@ -3139,9 +3139,9 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "forge": 8,
-            "lantern": 8,
-            "sky": 8
+            "forge": 21,
+            "lantern": 15,
+            "sky": 18
           },
           "forbidden": {},
           "essential": {
