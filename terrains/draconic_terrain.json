@@ -2301,10 +2301,10 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "lantern": 6,
-            "knock": 6,
-            "forge": 6,
-            "edge": 6
+            "lantern": 16,
+            "knock": 17,
+            "forge": 23,
+            "edge": 19
           },
           "forbidden": {},
           "essential": {
@@ -2503,7 +2503,20 @@
             "winter": 4
           },
           "forbidden": {
-            "reluctant": 1
+            "reluctant": 1,
+            "exalted.beverage": 1,
+            "exalted.candle": 1,
+            "exalted.collaboration": 1,
+            "exalted.fabric": 1,
+            "exalted.flower": 1,
+            "exalted.fuel": 1,
+            "exalted.memory": 1,
+            "exalted.metal": 1,
+            "exalted.omen": 1,
+            "exalted.pigment": 1,
+            "exalted.sustenance": 1,
+            "exalted.tool": 1,
+            "exalted.wood": 1
           },
           "essential": {
             "assistance": 1
