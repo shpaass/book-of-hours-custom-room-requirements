@@ -26,7 +26,7 @@ In the dev mode, you can unlock and re-lock the rooms by clicking on their backg
 1. Load the save. You should see your changes.
 1. Repeat it for all the rooms you want to change.
 
-Let's consider a more intricate example. Let's say you want the room Watchtower's Tower: First Floor to require both 2 Forge and 2 Lantern at the same time, when the Assistant must have used a Memory but must have not drunk any beverage. To spice things up, let's add that Assistant must have either 1 Edge or 1 Heart on top of that.  
+Let's consider a more intricate example. Let's say you want the room Watchtower's Tower: First Floor to require both 2 Forge and 2 Lantern at the same time, when the Assistant must have used a Memory but must have not drunk any beverage and must have no sky. To spice things up, let's add that Assistant must have either 1 Edge or 1 Heart on top of that.  
 We get the name of the verb, Gatehouse Stairs, and navigate to it in the file. The thing that interests us is the `preslots` array, in particular its members `required`, `forbidden`, and `essential`.  
 
 `essential` contains things that all must be true at the same time. It's equivalent to `A and B and ...`, so let's put our forge and lantern requirements there. The aspects are listed below, in the Materials section of the guide.
@@ -49,9 +49,12 @@ We get the name of the verb, Gatehouse Stairs, and navigate to it in the file. T
 `forbidden` contains things none of which must be true. It's equivalent to `not(A or B or ...)`. Let's put the beverage requirement there. To get the needed ID of the name of the assistant-beverage aspect, we navigate to the game files: `Steam\steamapps\common\Book of Hours\bh_Data\StreamingAssets\bhcontent\core\elements\_aspects.json`. We  search for "exalted" and find that the aspect's ID is `exalted.beverage`. You can find other aspects you want the same way - remember how it's called in the game and search this file for an ID.
 ```
 "forbidden":{
-    "exalted.beverage": 1
+    "exalted.beverage": 1,
+    "sky": 1
 },
 ```
+
+From the tests, it seems that `forbidden` doesn't care about the amounts. For instance, if you write that `"sky": 4` is forbidden, then an assistant even with `sky 1` will be forbidden.
 
 Congratulations! A room now has a custom complex requirement.
 
