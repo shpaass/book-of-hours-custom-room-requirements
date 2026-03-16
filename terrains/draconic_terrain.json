@@ -497,14 +497,14 @@
           "id": "infoRecipeInput",
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
-          "required": {
-            "sky": 9,
-            "forge": 9,
-            "lantern": 9
-          },
+          "required": {},
           "forbidden": {},
           "essential": {
-            "assistance": 1
+            "assistance": 1,
+            "exalted.omen": 1,
+            "sky": 6,
+            "forge": 6,
+            "lantern": 6
           }
         }
       ],
