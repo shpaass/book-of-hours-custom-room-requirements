@@ -2443,8 +2443,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "grail": 4,
-            "nectar": 4
+            "grail": 23,
+            "nectar": 21
           },
           "forbidden": {},
           "essential": {
