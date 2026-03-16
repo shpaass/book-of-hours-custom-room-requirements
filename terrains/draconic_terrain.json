@@ -1564,8 +1564,8 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "heart": 4,
-            "rose": 4
+            "heart": 20,
+            "rose": 14
           },
           "forbidden": {},
           "essential": {
