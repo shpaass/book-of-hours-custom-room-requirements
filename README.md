@@ -16,10 +16,9 @@ If you want to make your own custom adventure or to tinker with layouts, here's 
 1. Make a manual save of your current run to not mess it up.
 1. Make a new run for development and save it manually after the starting sequence. You're ready for dev.
 
-In the dev mode, you can unlock and re-lock the rooms by clicking on their background. Let's say you want to change the unlock-requirements for the Cucurbit Bridge:
-1. If it's already unlocked, then lock it back by enabling the dev mode and clicking on the bridge. There are different layers, so some places can lock it when others don't.
-1. Exit the dev mode and see how the unlock verb is called. In our case it's called Mist-Cloaked Bridge.
-1. Search for "Mist-Cloaked Bridge" in the "terrain" `.json` file of the mod. Confirm that you're looking at the right thing by comparing the unlock-requirements in the file with what you see in the game.
+In the dev mode, you can unlock and re-lock the rooms by clicking on their background. Let's say you want to change the unlock-requirements for the starting bridge:
+1. Click on the room you want to find. You should see its name in its card on the upper right corner. In our case it's called Cucurbit Bridge.
+1. Search for "Cucurbit Bridge" in the "terrain" `.json` file of the mod. Confirm that you're looking at the right thing by comparing the unlock-requirements in the file with what you see in the game.
 1. Change the unlock-requirements to what you want. This part is explained in more detail below. For now, we can just change the value of `forge` from 1 to 2 in `required`.
 1. Save the file. Copy it into the mod folder, replacing the old one.
 1. In the game, get back to the main menu. Open the mod list, disable the mod, close the list so the changes are applied, and then re-enable the mod the same way.
