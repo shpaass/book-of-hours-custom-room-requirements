@@ -1508,7 +1508,7 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "heart": 12,
+            "heart": 10,
             "edge": 11
           },
           "forbidden": {},
@@ -1536,7 +1536,7 @@
           "label": "#UI_ROOMINPUT_LABEL#",
           "description": "#UI_ROOMINPUT_DESCRIPTION#",
           "required": {
-            "heart": 12,
+            "heart": 10,
             "grail": 11
           },
           "forbidden": {},
