@@ -2,3 +2,6 @@ This is a Work In Progress change of the terrain to the tastes of user shpaass.
 The room requirements felt too easy for veterans, so this terrain changes them to be more challenging.
 
 Minimal expected setup: House of Light DLC, Minor Item Changes mod, Fabric Improvements mod.
+
+Opinions that I had during the balancing:
+Unusual Help is a boring mechanic and should be required only at the endgame rooms. If you do the math, you'll see that it takes more than a day of rolling help to get a certain helper with 80%+ probability.
