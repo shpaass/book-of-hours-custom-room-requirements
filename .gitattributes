@@ -1,4 +1,4 @@
 # Allows git to store the jsons in UTF-8 in its internal database, so it can show diffs.
 # Without this conversion, git considers the files as binaries, and the diff is very hard to read.
 Customizable_Room_Unlock_Requirements/content/*.json text working-tree-encoding=UTF-16LE-BOM
-terrains/*.json text working-tree-encoding=UTF-16LE-BOM
+terrains/**/*.json text working-tree-encoding=UTF-16LE-BOM
